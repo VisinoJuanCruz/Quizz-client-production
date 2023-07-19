@@ -33,7 +33,7 @@ function ThemeForm(){
             icon:'success',
         }).then((result) => {
             if(result.isConfirmed){
-                window.location.href = `/add-theme`
+                window.location.href = `/Quizz-client-production/add-theme`
             }
         })
     }

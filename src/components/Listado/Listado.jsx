@@ -31,7 +31,7 @@ function Listado(){
         {listado.map((eachGame,index) => {
             return (
                 <li className="" key={index}>
-                <Link className="game-card" to={`/game/${eachGame._id}`}>
+                <Link className="game-card" to={`/Quizz-client-production/game/${eachGame._id}`}>
                     {<p className="card-game-title">{eachGame.name}</p>}
                     <img alt={eachGame.name} className="game-img img-fluid" src={eachGame.imageUrl}></img>
                 </Link>

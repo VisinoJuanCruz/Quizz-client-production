@@ -29,7 +29,7 @@ function PlayerForm(props){
             mode:'cors',
             body: JSON.stringify(newPlayer)
         }).then(
-            history(`/`) 
+            history(`/Quizz-client-production/`) 
         )
         }
     }

@@ -40,7 +40,7 @@ const Game = () => {
       return (
       <main>
         <h1>Aun no tenemos preguntas para este tema, agregá algunas:</h1> 
-        <h2><Link to={`/game/${gameId}/add-question`}>Agregar pregunta</Link></h2>
+        <h2><Link to={`/Quizz-client-production/game/${gameId}/add-question`}>Agregar pregunta</Link></h2>
       </main>)
     }
     return (

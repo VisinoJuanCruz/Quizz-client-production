@@ -14,10 +14,10 @@ function App() {
     <div className="container app">
       <Header />
       <Routes>
-        <Route path="/" element={<Listado />} />
-        <Route path="/game/:gameId" element={<Game />} />
-        <Route path="/game/:gameId/add-question" element={<QuestionForm />} />
-        <Route path="/add-theme" element={<ThemeForm />} />
+        <Route path="/Quizz-client-production/" element={<Listado />} />
+        <Route path="/Quizz-client-production/game/:gameId" element={<Game />} />
+        <Route path="/Quizz-client-production/game/:gameId/add-question" element={<QuestionForm />} />
+        <Route path="/Quizz-client-production/add-theme" element={<ThemeForm />} />
       </Routes>
       <Footer />
     </div>

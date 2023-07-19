@@ -70,7 +70,7 @@ function QuestionForm(){
             mode:'cors',
             body: JSON.stringify(newQuestion)
         }).then(
-            history(`/game/${gameId}/add-question`)
+            history(`/Quizz-client-production/game/${gameId}/add-question`)
         )
 
         e.currentTarget.question.value = ''
