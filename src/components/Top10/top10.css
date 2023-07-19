@@ -1,0 +1,46 @@
+
+  .top10-container{
+    color:white;
+    
+}
+  
+
+
+
+.top10-title{
+    font-size:2.5em;
+    text-align: center;
+    color: yellow;
+    
+}
+
+.top10-list{
+    padding:0px;
+    list-style: none;
+    
+}
+
+.top10-player{
+    display:flex;
+    justify-content:space-between;
+
+}
+.top10-player:nth-child(1){
+    color:gold;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px black;
+}
+.top10-player:nth-child(2){
+    color:rgb(85, 76, 76);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.top10-player:nth-child(3){
+    color:rgb(161, 92, 13);
+    font-size:1.25rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+

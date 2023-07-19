@@ -1,0 +1,193 @@
+
+  
+  .app-juego-terminado {
+    height: min-content;
+    border-radius: 15px;
+    padding:20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.5);
+    color:white;
+    min-width: 10vh;
+    max-height: 100vh;
+    min-height: 50vh;
+    position:static;
+    top:10%;
+    
+
+  }
+ 
+
+  @media (min-width: 1024px){
+    .game-container{
+    
+      top:1px / 2px;
+      right: 1px / 2px;
+      padding: 5%;
+      padding-left:10%;
+      padding-right: 10%;
+  
+  
+    }
+
+
+    .game{
+      margin-top:5%;
+    }
+
+    
+
+
+  }
+  
+
+  .game-title{
+    color:rgb(0, 0, 0);
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px white;
+    
+  }
+
+  .game{
+    background-color: #302b2b;
+    padding:5%;
+    border-radius:15px;
+    border: 1px solid white;
+    
+    
+  }
+  
+  
+
+
+
+  .btns-container{
+    border-radius: 5px;
+  }
+  
+  /* PREGUNTAS */
+  .lado-arriba {
+    min-height: 100px;
+    width: 100%;
+    
+  }
+  
+  .container-pregunta{
+    color:black;
+    background-color:#cdd2e9;
+    border-radius:10px;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    max-height: 500px;
+    flex-direction: column;
+    
+    
+    
+  }
+
+  .question-image{
+    width: 25vh;
+    height: 20vh;
+    margin:5%;
+    border-radius: 15px;
+    min-width: 100px;
+    min-height: 100px;
+    object-fit: contain;
+    
+  }
+  
+  .pregunta-numero {
+    margin-bottom: 20px;
+  
+  }
+  
+  .pregunta-numero span {
+    font-size: 28px;
+  }
+  
+  .pregunta-titulo {
+    margin-bottom: 12px;
+  }
+  
+  .lado-derecho {
+    width: 100%;
+    margin-left:0px;
+    margin-right: 0px;
+    display:flex;
+    flex-direction: column;
+    
+  }
+  
+  /* FINALIZADO */
+  .juego-terminado {
+    font-size: 24px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+  }
+
+  button {
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    background-color: #cdd2e9;
+    border-radius: 25%;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #545c64;
+    cursor: pointer;
+
+
+    
+  }
+  .btn-play-again{
+    width:auto;
+  }
+  
+  .tiempo-restante {
+    font-size: 14px;
+    color: #fcbf3d;
+    margin-bottom: 20px;
+  }
+  
+  .correct,
+  .correct:hover {
+    background-color: #2f922f;
+  }
+  
+  .incorrect,
+  .incorrect:hover {
+    background-color: #ff3333;
+  }
+  
+  .btns-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  button:hover {
+    background-color: #000000;
+    color:white;
+  }
+  
+  button[disabled] {
+    background-color: #555e7d;
+    color: #ffffff;
+    cursor: not-allowed;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+ 
