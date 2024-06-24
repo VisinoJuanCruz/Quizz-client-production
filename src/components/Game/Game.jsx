@@ -14,7 +14,7 @@ const Game = () => {
     fetch(`https://quizz-y0dw.onrender.com/api/game/${gameId}`)
       .then(response => response.json())
       .then(game => {
-        game.questions = game.questions.sort(() => Math.random() - 0.5).slice(0,25)//  Con esta línea corta la cantidad en 10 unidades   .slice(0,10)
+        game.questions = game.questions.sort(() => Math.random() - 0.5).slice(0,20)//  Con esta línea corta la cantidad en 10 unidades   .slice(0,10)
         setGame(game)
         setLoading(false)
       })

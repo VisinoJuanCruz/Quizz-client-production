@@ -64,7 +64,7 @@ const GameTable = (props) => {
                 </span>) : (
                   <button
                     onClick={() => {
-                      setTiempoRestante(15);
+                      setTiempoRestante(10);
                       setAreDisabled(false);
                       setPreguntaActual(preguntaActual +1);
                     }}> 
